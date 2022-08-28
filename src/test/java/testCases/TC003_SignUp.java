@@ -16,7 +16,7 @@ public class TC003_SignUp extends BaseClass {
 		Thread.sleep(3000);
 		
 		SignUp SignUpPersonal = new SignUp();
-		SignUpPersonal.SignUpPersonalFunction("FName", "LName", "a@ab.com", "9009009009", "WhatIsPassword", "WhatIsPassword");
+		SignUpPersonal.SignUpPersonalFunction("FName", "LName", "abcd@abcd.com", "9009009009", "WhatIsPassword", "WhatIsPassword");
 		Thread.sleep(5000);
 		test = reports.createTest("SignUp-Personal Details Test", "All details entered successfully");
 		
